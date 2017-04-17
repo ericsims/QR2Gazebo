@@ -1,0 +1,14 @@
+material QR/QR_Code
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture static_qr_code_without_logo.png
+      }
+    }
+  }
+}

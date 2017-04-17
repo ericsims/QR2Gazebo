@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name="box">
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>.001 1 1</size>
+          </box>
+        </geometry>
+
+       <material>
+          <script>
+            <uri>model://QR/materials/scripts</uri>
+            <uri>model://QR/materials/textures</uri>
+            <name>Dumpy/Diffuse</name>
+          </script>
+        </material>
+
+      </visual>
+    </link>
+  </model>
+</sdf>

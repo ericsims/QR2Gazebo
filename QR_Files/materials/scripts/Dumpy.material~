@@ -1,0 +1,29 @@
+material Dumpy/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture static_qr_code_without_logo.jpg
+      }
+    }
+  }
+}
+
+material Dumpy/Specular
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Dumpster_Spec.png
+      }
+    }
+  }
+}
