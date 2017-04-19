@@ -1,6 +1,7 @@
 # QR2Gazebo
 ### Python Dependencies
  - ```pyqrcode```
+ - ```pypng```
 
 ### Usage
 Run ```python QR2Gazebo.py 'QR_Contents'``` where 'QR_Contents' (with quotes) is the data that you want encoded into the QR code.
